@@ -63,13 +63,14 @@ class MainWindow(QtGui.QMainWindow, Ui_MainWindow ):
 		self.label_5.setText("Velocity:")
 		self.label_7.setText("Angular Velocity:")
 
+		self.label_10.setStyleSheet("background-color:green;")
 		#self.checkBox.setText("rad")
 
 		# w = self.widget_5
 		
 		# plot = pg.PlotWidget()
 
-		
+
 		# layout = QtGui.QGridLayout()
 		# w.setLayout(layout)
 
